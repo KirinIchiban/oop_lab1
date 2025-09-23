@@ -1,0 +1,21 @@
+# ninja log v7
+2	71	7803528112809707	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	22154c1deaca35a6
+2	71	7803528112809707	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	22154c1deaca35a6
+72	23341	7803528345503932	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e8c7307d00032ad
+72	23341	7803528345503932	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e8c7307d00032ad
+23342	23489	7803528345563919	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	86c99b777bb23ef9
+23342	23489	7803528345563919	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	86c99b777bb23ef9
+23489	23553	7803528347623928	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	50b5c459b3d33428
+23489	23553	7803528347623928	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	50b5c459b3d33428
+23553	23615	7803528348253933	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	598f3b5f3837c655
+23553	23615	7803528348253933	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	598f3b5f3837c655
+23615	23682	7803528348923954	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	624e0ba0fbcf3f7b
+23615	23682	7803528348923954	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	624e0ba0fbcf3f7b
+23683	23742	7803528349523993	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	3bc2edef6dbd1c4
+23683	23742	7803528349523993	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	3bc2edef6dbd1c4
+23742	23837	7803528350463939	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	89989039dbc1215c
+23742	23837	7803528350463939	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	89989039dbc1215c
+23837	23924	7803528351333919	CMakeFiles/googletest-populate-complete	5e4037495c05635e
+23837	23924	7803528351333919	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	5e4037495c05635e
+23837	23924	7803528351333919	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	5e4037495c05635e
+23837	23924	7803528351333919	C:/Users/Irelix/2curse/OOP_MAI/lab1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	5e4037495c05635e
