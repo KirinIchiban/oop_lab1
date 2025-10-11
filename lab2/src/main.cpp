@@ -1,7 +1,6 @@
 #include "../include/headers.hpp"
 
 int main() {
-    std::cout << "\n--- Constructors ---\n";
 
     Twelve def;
     std::cout << "Default: ";
@@ -23,17 +22,6 @@ int main() {
     copy.print();
     std::cout << "\n";
 
-    Twelve moved(std::move(copy));
-    std::cout << "Moved (copy -> moved): ";
-    moved.print();
-    std::cout << "\n";
-
-    std::cout << "Old copy (after move): ";
-    copy.print();
-    std::cout << "\n";
-
-    std::cout << "\n--- Arithmetic: add / minus ---\n";
-
     Twelve a("1A3"); 
     Twelve b("B0"); 
 
@@ -50,12 +38,10 @@ int main() {
     diff.print();
     std::cout << "\n";
 
-    std::cout << "\n--- Comparison ---\n";
     std::cout << "a == b ? " << (a.isEqual(b) ? "Yes" : "No") << "\n";
     std::cout << "a > b  ? " << (a.isGreater(b) ? "Yes" : "No") << "\n";
     std::cout << "a < b  ? " << (a.isLess(b) ? "Yes" : "No") << "\n";
 
-    std::cout << "\n--- Exception test (minus underflow) ---\n";
     try {
         Twelve x("10"); 
         Twelve y("B");  
@@ -75,8 +61,6 @@ int main() {
         std::cerr << "Caught exception: " << e.what() << "\n";
     }
 
-    std::cout << "\n--- Assignment ---\n";
-
     Twelve c("A0");
     Twelve d("B");
     std::cout << "c = "; c.print();
@@ -89,25 +73,14 @@ int main() {
     std::cout << "\n";
 
     Twelve f;
-    f = e; // копирование
+    f = e; 
     std::cout << "f = e (copy): ";
     f.print();
-    std::cout << "\n";
-
-    Twelve g;
-    g = std::move(e); 
-    std::cout << "g = move(e): ";
-    g.print();
-    std::cout << "\n";
-    std::cout << "e after move: ";
-    e.print();
     std::cout << "\n";
 
     Twelve t(4, '0');
     t.print();
 
-    std::cout << "\n--- End of program ---\n";
-    std::cout << "All destructors will be called now.\n";
     std::cout << "\n=== End ===\n\n";
 
     return 0;

@@ -1,8 +1,5 @@
 #include "../include/headers.hpp"
 
-//реализация
-
-//КОНСТРУКТОРЫ
 Twelve::Twelve() : data(nullptr), size(0) {}
 
 Twelve::Twelve(const size_t &baseNo12, unsigned char ch) {
@@ -95,7 +92,6 @@ Twelve::Twelve(Twelve&& other) noexcept {
     other.data = nullptr;
 }
 
-//ОПЕРАТОРЫ
 Twelve& Twelve::operator=(const Twelve& other) {
     if (this != &other) {
         delete[] data;  
@@ -118,7 +114,6 @@ Twelve& Twelve::operator=(Twelve&& other) noexcept {
     return *this;
 }
 
-//АРИФМЕТИЧЕСКИЕ МЕТОДЫ
 Twelve Twelve::add(const Twelve& other) const {
         size_t mx = (this->size > other.size) ? this->size : other.size;
 
